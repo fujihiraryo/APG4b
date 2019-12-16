@@ -13,8 +13,8 @@
 *.dll
 *.dylib
 
-.vscode
-
 # 実行ファイルを無視する
 *
 !*.*
+
+.vscode
