@@ -3,5 +3,6 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello, World!" << endl;
+    cout << 7 % 3 << endl;
+    cout << 4 % 5 << endl;
 }

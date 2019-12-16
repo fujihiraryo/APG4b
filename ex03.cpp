@@ -3,5 +3,5 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello, World!" << endl;
+    cout << 100 * (100 + 1) / 2 << endl;
 }
