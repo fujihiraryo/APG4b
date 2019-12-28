@@ -14,7 +14,8 @@
 *.dylib
 
 # 実行ファイルを無視する
-*
-!*.*
+practice/*
+exercise/*
+!*.cpp
 
 .vscode
