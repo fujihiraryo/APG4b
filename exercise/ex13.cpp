@@ -1,20 +1,17 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
+#include <vector>
 
-int main()
-{
-    int N;
-    cin >> N;
-    vector<int> vec(N);
+int main() {
+    int n;
+    std::cin >> n;
+    std::vector<int> vec(n);
 
-    int S = 0;
-    for (int i = 0; i < N; i++)
-    {
-        cin >> vec.at(i);
-        S += vec.at(i);
+    int s = 0;
+    for (int i = 0; i < n; i++) {
+        std::cin >> vec.at(i);
+        s += vec.at(i);
     }
-    for (int i = 0; i < N; i++)
-    {
-        cout << abs(abs(vec.at(i) - S / N)) << endl;
+    for (int i = 0; i < n; i++) {
+        std::cout << abs(abs(vec[i] - s / n)) << std::endl;
     }
 }

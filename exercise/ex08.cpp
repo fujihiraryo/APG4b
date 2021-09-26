@@ -1,29 +1,25 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
+int main() {
     int p;
     int price;
-    string text;
+    std::string text;
     int N;
 
-    cin >> p;
+    std::cin >> p;
 
     // パターン1
-    if (p == 1)
-    {
-        cin >> price;
-        cin >> N;
+    if (p == 1) {
+        std::cin >> price;
+        std::cin >> N;
     }
 
     // パターン2
-    if (p == 2)
-    {
-        cin >> text;
-        cin >> price;
-        cin >> N;
-        cout << text << "!" << endl;
+    if (p == 2) {
+        std::cin >> text;
+        std::cin >> price;
+        std::cin >> N;
+        std::cout << text << "!" << std::endl;
     }
-    cout << price * N << endl;
+    std::cout << price * N << std::endl;
 }

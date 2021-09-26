@@ -1,8 +1,6 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    cout << "いつも" << 2525 << endl;
-    cout << "AtCoderくん" << endl;
+int main() {
+    std::cout << "いつも" << 2525 << std::endl;
+    std::cout << "AtCoderくん" << std::endl;
 }

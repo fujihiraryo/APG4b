@@ -12,6 +12,7 @@
 *.so.*
 *.dll
 *.dylib
+*.out
 
 # 実行ファイルを無視する
 practice/*

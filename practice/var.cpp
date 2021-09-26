@@ -1,11 +1,8 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    int name;
-    name = 10;
-    cout << name << endl;
-    cout << name + 2 << endl;
-    cout << name * 3 << endl;
+int main() {
+    int x = 10;
+    std::cout << x << std::endl;
+    std::cout << x + 2 << std::endl;
+    std::cout << x * 3 << std::endl;
 }

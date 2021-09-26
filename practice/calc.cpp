@@ -1,10 +1,8 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    cout << 1 + 1 << endl;
-    cout << 3 - 4 << endl;
-    cout << 2 * 3 << endl;
-    cout << 7 / 3 << endl;
+int main() {
+    std::cout << 1 + 1 << std::endl;
+    std::cout << 3 - 4 << std::endl;
+    std::cout << 2 * 3 << std::endl;
+    std::cout << 7 / 3 << std::endl;
 }

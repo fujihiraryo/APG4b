@@ -1,43 +1,32 @@
-#include <bits/stdc++.h>
-// #include <fstream>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    // std::ifstream in("input.txt");
-    // std::cin.rdbuf(in.rdbuf());
+int main() {
     int N, A;
-    cin >> N;
-    cin >> A;
-    for (int n = 1; n <= N; n++)
-    {
-        string op;
+    std::cin >> N;
+    std::cin >> A;
+    for (int n = 1; n <= N; n++) {
+        std::string op;
         int B;
-        cin >> op >> B;
-        if (op == "+")
-        {
+        std::cin >> op >> B;
+        if (op == "+") {
             A = A + B;
-            cout << n << ":" << A << endl;
+            std::cout << n << ":" << A << std::endl;
         }
-        if (op == "-")
-        {
+        if (op == "-") {
             A = A - B;
-            cout << n << ":" << A << endl;
+            std::cout << n << ":" << A << std::endl;
         }
-        if (op == "*")
-        {
+        if (op == "*") {
             A = A * B;
-            cout << n << ":" << A << endl;
+            std::cout << n << ":" << A << std::endl;
         }
-        if (op == "/")
-        {
-            if (B == 0)
-            {
-                cout << "error" << endl;
+        if (op == "/") {
+            if (B == 0) {
+                std::cout << "error" << std::endl;
                 break;
             }
             A = A / B;
-            cout << n << ":" << A << endl;
+            std::cout << n << ":" << A << std::endl;
         }
     }
 }

@@ -1,7 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    cout << 100 * (100 + 1) / 2 << endl;
-}
+int main() { std::cout << 100 * (100 + 1) / 2 << std::endl; }

@@ -1,17 +1,13 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    string str;
-    cin >> str;
+int main() {
+    std::string str;
+    std::cin >> str;
     int count = 0;
-    for (int i = 0; i < str.size(); i++)
-    {
-        if (str.at(i) == 'O')
-        {
+    for (int i = 0; i < str.size(); i++) {
+        if (str[i] == 'O') {
             count++;
         }
     }
-    cout << count << endl;
+    std::cout << count << std::endl;
 }

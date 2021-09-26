@@ -1,17 +1,12 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
+int main() {
     int x, y;
-    cin >> x >> y;
+    std::cin >> x >> y;
 
-    if (!(x == y))
-    {
-        cout << "x!=y" << endl;
-    }
-    else
-    {
-        cout << "x==y" << endl;
+    if (!(x == y)) {
+        std::cout << "x != y" << std::endl;
+    } else {
+        std::cout << "x == y" << std::endl;
     }
 }

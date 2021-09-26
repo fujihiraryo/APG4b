@@ -1,21 +1,11 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-// 関数定義
-int my_min(int x, int y)
-{
-    if (x < y)
-    {
+int min(int x, int y) {
+    if (x < y) {
         return x;
-    }
-    else
-    {
+    } else {
         return y;
     }
 }
 
-int main()
-{
-    int answer = my_min(10, 5);
-    cout << answer << endl; // 5
-}
+int main() { std::cout << min(10, 5) << std::endl; }

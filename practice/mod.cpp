@@ -1,8 +1,6 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    cout << 7 % 3 << endl;
-    cout << 4 % 5 << endl;
+int main() {
+    std::cout << 7 % 3 << std::endl;
+    std::cout << 4 % 5 << std::endl;
 }

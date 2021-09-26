@@ -1,16 +1,12 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    for (int i = 0; i < 5; i++)
-    {
-        if (i == 3)
-        {
-            cout << "continue" << endl;
+int main() {
+    for (int i = 0; i < 5; i++) {
+        if (i == 3) {
+            std::cout << "continue" << std::endl;
             continue;
         }
-        cout << i << endl;
+        std::cout << i << std::endl;
     }
-    cout << "end" << endl;
+    std::cout << "end" << std::endl;
 }

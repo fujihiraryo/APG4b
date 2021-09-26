@@ -1,24 +1,22 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
+int main() {
     int x, a, b;
-    cin >> x >> a >> b;
+    std::cin >> x >> a >> b;
 
     // 1.の出力
     x++;
-    cout << x << endl;
+    std::cout << x << std::endl;
 
     // 2.の出力
     x *= (a + b);
-    cout << x << endl;
+    std::cout << x << std::endl;
 
     // 3.の出力
     x *= x;
-    cout << x << endl;
+    std::cout << x << std::endl;
 
     // 4.の出力
     x--;
-    cout << x << endl;
+    std::cout << x << std::endl;
 }

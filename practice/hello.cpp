@@ -1,7 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    cout << "Hello, World!" << endl;
-}
+int main() { std::cout << "Hello, World!" << std::endl; }

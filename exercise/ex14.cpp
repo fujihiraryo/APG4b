@@ -1,9 +1,8 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    int A, B, C;
-    cin >> A >> B >> C;
-    cout << max(max(A, B), C) - min(min(A, B), C) << endl;
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    int ans = std::max(std::max(a, b), c) - std::min(std::min(a, b), c);
+    std::cout << ans << std::endl;
 }
