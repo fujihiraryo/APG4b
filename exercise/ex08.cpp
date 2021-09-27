@@ -4,22 +4,22 @@ int main() {
     int p;
     int price;
     std::string text;
-    int N;
+    int n;
 
     std::cin >> p;
 
     // パターン1
     if (p == 1) {
         std::cin >> price;
-        std::cin >> N;
+        std::cin >> n;
     }
 
     // パターン2
     if (p == 2) {
         std::cin >> text;
         std::cin >> price;
-        std::cin >> N;
+        std::cin >> n;
         std::cout << text << "!" << std::endl;
     }
-    std::cout << price * N << std::endl;
+    std::cout << price * n << std::endl;
 }

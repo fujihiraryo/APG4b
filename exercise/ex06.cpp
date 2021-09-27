@@ -2,21 +2,21 @@
 #include <string>
 
 int main() {
-    int A, B;
+    int a, b;
     std::string op;
-    std::cin >> A >> op >> B;
+    std::cin >> a >> op >> b;
 
     if (op == "+") {
-        std::cout << A + B << std::endl;
+        std::cout << a + b << std::endl;
     } else if (op == "-") {
-        std::cout << A - B << std::endl;
+        std::cout << a - b << std::endl;
     } else if (op == "*") {
-        std::cout << A * B << std::endl;
+        std::cout << a * b << std::endl;
     } else if (op == "/") {
-        if (B == 0) {
+        if (b == 0) {
             std::cout << "error" << std::endl;
         } else {
-            std::cout << A / B << std::endl;
+            std::cout << a / b << std::endl;
         }
     } else {
         std::cout << "error" << std::endl;

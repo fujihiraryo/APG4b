@@ -1,20 +1,20 @@
 #include <iostream>
 
 int main() {
-    int A, B;
-    std::cin >> A >> B;
+    int a, b;
+    std::cin >> a >> b;
 
-    std::string a = "";
-    while (A > 0) {
-        a += "]";
-        A -= 1;
+    std::string x = "";
+    while (a > 0) {
+        x += "]";
+        a -= 1;
     }
     std::cout << "A:" << a << std::endl;
 
-    std::string b = "";
-    while (B > 0) {
-        b += "]";
-        B -= 1;
+    std::string y = "";
+    while (b > 0) {
+        y += "]";
+        b -= 1;
     }
     std::cout << "B:" << b << std::endl;
 }

@@ -8,8 +8,8 @@ int main() {
 
     int s = 0;
     for (int i = 0; i < n; i++) {
-        std::cin >> vec.at(i);
-        s += vec.at(i);
+        std::cin >> vec[i];
+        s += vec[i];
     }
     for (int i = 0; i < n; i++) {
         std::cout << abs(abs(vec[i] - s / n)) << std::endl;

@@ -1,32 +1,32 @@
 #include <iostream>
 
 int main() {
-    int N, A;
-    std::cin >> N;
-    std::cin >> A;
-    for (int n = 1; n <= N; n++) {
+    int n, a;
+    std::cin >> n;
+    std::cin >> a;
+    for (int n = 1; n <= n; n++) {
         std::string op;
-        int B;
-        std::cin >> op >> B;
+        int b;
+        std::cin >> op >> b;
         if (op == "+") {
-            A = A + B;
-            std::cout << n << ":" << A << std::endl;
+            a = a + b;
+            std::cout << n << ":" << a << std::endl;
         }
         if (op == "-") {
-            A = A - B;
-            std::cout << n << ":" << A << std::endl;
+            a = a - b;
+            std::cout << n << ":" << a << std::endl;
         }
         if (op == "*") {
-            A = A * B;
-            std::cout << n << ":" << A << std::endl;
+            a = a * b;
+            std::cout << n << ":" << a << std::endl;
         }
         if (op == "/") {
-            if (B == 0) {
+            if (b == 0) {
                 std::cout << "error" << std::endl;
                 break;
             }
-            A = A / B;
-            std::cout << n << ":" << A << std::endl;
+            a = a / b;
+            std::cout << n << ":" << a << std::endl;
         }
     }
 }

@@ -1,14 +1,14 @@
 #include <iostream>
 
 int main() {
-    std::string S;
-    std::cin >> S;
+    std::string s;
+    std::cin >> s;
     int count = 1;
-    for (int i = 0; i < S.size(); i++) {
-        if (S.at(i) == '+') {
+    for (int i = 0; i < s.size(); i++) {
+        if (s[i] == '+') {
             count++;
         }
-        if (S.at(i) == '-') {
+        if (s[i] == '-') {
             count--;
         }
     }
